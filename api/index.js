@@ -1,9 +1,12 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import router from './routes/user.route.js';
 
 const app = express();
 dotenv.config();
+
+app.use('/', router);
 
 mongoose
   .connect(process.env.MONGODB_URL)
