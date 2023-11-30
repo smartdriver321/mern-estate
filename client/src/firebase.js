@@ -6,11 +6,11 @@ import { initializeApp } from 'firebase/app';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: 'mern-estate-6d882.firebaseapp.com',
-  projectId: 'mern-estate-6d882',
-  storageBucket: 'mern-estate-6d882.appspot.com',
-  messagingSenderId: '1022273409109',
-  appId: '1:1022273409109:web:7229687f830b3f382944dc',
+  authDomain: 'mern-estate.firebaseapp.com',
+  projectId: 'mern-estate',
+  storageBucket: 'mern-estate.appspot.com',
+  messagingSenderId: '1078482850952',
+  appId: '1:1078482850952:web:28f19139ab77246602fb3d',
 };
 
 // Initialize Firebase
