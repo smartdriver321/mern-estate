@@ -32,7 +32,6 @@ export default function CreateListing() {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
   console.log(formData);
-
   const handleImageSubmit = (e) => {
     if (files.length > 0 && files.length + formData.imageUrls.length < 7) {
       setUploading(true);
@@ -126,7 +125,6 @@ export default function CreateListing() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     try {
       if (formData.imageUrls.length < 1)
         return setError('You must upload at least one image');
