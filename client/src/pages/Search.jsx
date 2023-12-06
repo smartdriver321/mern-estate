@@ -240,7 +240,7 @@ export default function Search() {
           )}
           {loading && (
             <p className='text-xl text-slate-700 text-center w-full'>
-              Loading...
+              Loading..
             </p>
           )}
 
